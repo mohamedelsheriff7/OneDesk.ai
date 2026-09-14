@@ -1,0 +1,91 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Employee Requests API",
+    "description": "Mock employee identity and request API. Submission does not mean approval.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://shelf-roman-swimmable.ngrok-free.dev"
+    }
+  ],
+  "paths": {
+    "/employees/{employee_id}": {
+      "get": {
+        "operationId": "resolve_employee",
+        "summary": "Resolve employee identity",
+        "description": "Verifies an employee ID and returns basic employee and department metadata.",
+        "parameters": [
+          {
+            "name": "employee_id",
+            "in": "path",
+            "required": true,
+            "schema": {"type": "string"}
+          }
+        ],
+        "responses": {
+          "200": {"description": "Employee found"},
+          "404": {"description": "Employee not found"}
+        }
+      }
+    },
+    "/requests": {
+      "post": {
+        "operationId": "submit_request",
+        "summary": "Submit an employee request",
+        "description": "Creates a supported request for a verified employee after explicit confirmation. Submission does not mean approval.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["employee_id", "request_type", "details", "confirmed"],
+                "properties": {
+                  "employee_id": {"type": "string"},
+                  "request_type": {
+                    "type": "string",
+                    "enum": ["Leave", "HR Letter", "Hardware", "Software Access"]
+                  },
+                  "details": {"type": "string"},
+                  "confirmed": {"type": "boolean"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {"description": "Request submitted"},
+          "400": {"description": "Invalid or unconfirmed request"},
+          "404": {"description": "Employee not found"}
+        }
+      }
+    },
+    "/requests/{request_id}": {
+      "get": {
+        "operationId": "check_request_status",
+        "summary": "Check request status",
+        "description": "Returns a request only when it belongs to the supplied employee ID.",
+        "parameters": [
+          {
+            "name": "request_id",
+            "in": "path",
+            "required": true,
+            "schema": {"type": "string"}
+          },
+          {
+            "name": "employee_id",
+            "in": "query",
+            "required": true,
+            "schema": {"type": "string"}
+          }
+        ],
+        "responses": {
+          "200": {"description": "Request found"},
+          "404": {"description": "No matching request found"}
+        }
+      }
+    }
+  }
+}

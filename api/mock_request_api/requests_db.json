@@ -1,0 +1,146 @@
+[
+  {
+    "request_id": "REQ-1001",
+    "employee_id": "EMP101",
+    "type": "Leave",
+    "details": "Annual leave request for 2026-10-05 to 2026-10-10",
+    "status": "Pending HR Review",
+    "submitted_at": "2026-09-13"
+  },
+  {
+    "request_id": "REQ-1002",
+    "employee_id": "EMP103",
+    "type": "Software Access",
+    "details": "CRM analytics dashboard editor access for account reporting",
+    "status": "Pending Manager Review",
+    "submitted_at": "2026-09-12"
+  },
+  {
+    "request_id": "REQ-1003",
+    "employee_id": "EMP109",
+    "type": "Hardware",
+    "details": "External monitor for campaign design and review",
+    "status": "Pending IT Review",
+    "submitted_at": "2026-09-11"
+  },
+  {
+    "request_id": "REQ-1004",
+    "employee_id": "EMP105",
+    "type": "HR Letter",
+    "details": "Employment verification letter addressed to the Embassy of Italy",
+    "status": "Completed",
+    "submitted_at": "2026-09-08"
+  },
+  {
+    "request_id": "REQ-1005",
+    "employee_id": "EMP114",
+    "type": "Leave",
+    "details": "Personal leave request for 2026-09-20",
+    "status": "Rejected",
+    "submitted_at": "2026-09-09"
+  },
+  {
+    "request_id": "REQ-1006",
+    "employee_id": "EMP115",
+    "type": "Software Access",
+    "details": "Read-only access to infrastructure monitoring dashboard",
+    "status": "Completed",
+    "submitted_at": "2026-09-05"
+  },
+  {
+    "request_id": "REQ-1007",
+    "employee_id": "EMP111",
+    "type": "Hardware",
+    "details": "Replacement keyboard for Cairo office workstation",
+    "status": "Pending IT Review",
+    "submitted_at": "2026-09-13"
+  },
+  {
+    "request_id": "REQ-1008",
+    "employee_id": "EMP117",
+    "type": "HR Letter",
+    "details": "General employment verification letter addressed To Whom It May Concern",
+    "status": "Pending HR Review",
+    "submitted_at": "2026-09-13"
+  },
+  {
+    "request_id": "REQ-1009",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "Software: Figma; Access level: Editor; Business reason: create UI prototypes",
+    "status": "Submitted",
+    "submitted_at": "2026-09-13"
+  },
+  {
+    "request_id": "REQ-1010",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "Software name: Figma, Access level: Standard, Business reason: UI prototypes",
+    "status": "Submitted",
+    "submitted_at": "2026-09-13"
+  },
+  {
+    "request_id": "REQ-1011",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "Software: Figma, Access level: Editor, Business reason: UI prototype work",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1012",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "{\"software_name\": \"Figma\", \"access_level\": \"Editor\", \"business_reason\": \"UI prototype work\"}",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1013",
+    "employee_id": "EMP101",
+    "type": "Leave",
+    "details": "Leave type: Sick, Start date: 2026-10-12, End date: 2026-10-14",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1014",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "{\"software_name\":\"Figma\",\"access_level\":\"Standard\",\"business_reason\":\"UI/UX design effort for Project X (create and iterate wireframes and high‑fidelity mock‑ups)\"}",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1015",
+    "employee_id": "EMP101",
+    "type": "Software Access",
+    "details": "Software: Figma, Access level: Editor, Business reason: UI prototype work",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1016",
+    "employee_id": "EMP101",
+    "type": "HR Letter",
+    "details": "{\"letter_type\": \"employment verification\", \"recipient_name\": \"Mohamed Elsherif\", \"recipient_address\": \"25 North Cairo\", \"purpose\": \"travel\"}",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1017",
+    "employee_id": "EMP101",
+    "type": "Leave",
+    "details": "{\"leave_type\": \"sick\", \"start_date\": \"2026-10-01\", \"end_date\": \"2026-12-01\", \"reason\": \"zehe2t\"}",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  },
+  {
+    "request_id": "REQ-1018",
+    "employee_id": "EMP101",
+    "type": "Leave",
+    "details": "Leave type: Annual; Start date: 2026-10-10; End date: 2026-10-12; Reason: Sick",
+    "status": "Submitted",
+    "submitted_at": "2026-09-14"
+  }
+]

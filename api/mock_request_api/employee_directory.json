@@ -1,0 +1,122 @@
+[
+  {
+    "employee_id": "EMP101",
+    "name": "Sarah Ahmed",
+    "department": "Engineering",
+    "email": "sarah.a@company.com"
+  },
+  {
+    "employee_id": "EMP102",
+    "name": "Youssef Nabil",
+    "department": "Engineering",
+    "email": "youssef.n@company.com"
+  },
+  {
+    "employee_id": "EMP103",
+    "name": "Omar Hassan",
+    "department": "Sales",
+    "email": "omar.h@company.com"
+  },
+  {
+    "employee_id": "EMP104",
+    "name": "Laila Mostafa",
+    "department": "Sales",
+    "email": "laila.m@company.com"
+  },
+  {
+    "employee_id": "EMP105",
+    "name": "Mariam Adel",
+    "department": "Human Resources",
+    "email": "mariam.a@company.com"
+  },
+  {
+    "employee_id": "EMP106",
+    "name": "Karim Fawzy",
+    "department": "Human Resources",
+    "email": "karim.f@company.com"
+  },
+  {
+    "employee_id": "EMP107",
+    "name": "Nour Khaled",
+    "department": "Finance",
+    "email": "nour.k@company.com"
+  },
+  {
+    "employee_id": "EMP108",
+    "name": "Ahmed Samir",
+    "department": "Finance",
+    "email": "ahmed.s@company.com"
+  },
+  {
+    "employee_id": "EMP109",
+    "name": "Salma Tarek",
+    "department": "Marketing",
+    "email": "salma.t@company.com"
+  },
+  {
+    "employee_id": "EMP110",
+    "name": "Hassan Emad",
+    "department": "Marketing",
+    "email": "hassan.e@company.com"
+  },
+  {
+    "employee_id": "EMP111",
+    "name": "Dina Wael",
+    "department": "Operations",
+    "email": "dina.w@company.com"
+  },
+  {
+    "employee_id": "EMP112",
+    "name": "Mahmoud Ali",
+    "department": "Operations",
+    "email": "mahmoud.a@company.com"
+  },
+  {
+    "employee_id": "EMP113",
+    "name": "Farah Hany",
+    "department": "Customer Support",
+    "email": "farah.h@company.com"
+  },
+  {
+    "employee_id": "EMP114",
+    "name": "Mostafa Rami",
+    "department": "Customer Support",
+    "email": "mostafa.r@company.com"
+  },
+  {
+    "employee_id": "EMP115",
+    "name": "Aya Sherif",
+    "department": "Information Technology",
+    "email": "aya.s@company.com"
+  },
+  {
+    "employee_id": "EMP116",
+    "name": "Mohamed Gamal",
+    "department": "Information Technology",
+    "email": "mohamed.g@company.com"
+  },
+  {
+    "employee_id": "EMP117",
+    "name": "Rana Magdy",
+    "department": "Legal and Compliance",
+    "email": "rana.m@company.com"
+  },
+  {
+    "employee_id": "EMP118",
+    "name": "Ali Ashraf",
+    "department": "Legal and Compliance",
+    "email": "ali.a@company.com"
+  },
+  {
+    "employee_id": "EMP119",
+    "name": "Heba Amr",
+    "department": "Procurement",
+    "email": "heba.a@company.com"
+  },
+  {
+    "employee_id": "EMP120",
+    "name": "Ziad Sameh",
+    "department": "Procurement",
+    "email": "ziad.s@company.com"
+  }
+]
